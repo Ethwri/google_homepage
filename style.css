@@ -31,9 +31,25 @@ div.search-box{
 	margin: auto;
 	margin-top: 20px;
 }
+
+
+#search{
+	float: left;
+	height: 36px;
+	width: 90%;
+	padding-left: 10px;
+	border: none;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
 #mic{
 	float: right;
 	height: 60%;
-	padding-top: 6px;
+	padding-top: 7px;
 	padding-right: 10px;
+	z-index: 1;
+	position: relative;
 }
