@@ -1,12 +1,9 @@
 /* General Styling */
 body{
 	font-family: Arial, sans-serif;
-	font-size: 16px;
+	font-size: 14px;
 	color: #0B3C5D;
-	background-image: url("/mindmaps/mindmaptile3.png")	;
-	background-size: 10%;
-	background-attachment: fixed;
-	
+		
 }
 
 /* Header */
@@ -16,6 +13,9 @@ div.header {
 	height: 32px;
 	display: table-cell;
 	vertical-align: middle;
+	top: 0;
+	right: 0;
+	position: absolute;
 }
 div.header span{
 	padding: 10px;
@@ -40,6 +40,7 @@ div.logo {
 	height: 92px;
 	width: 272px;
 	margin: auto;
+	margin-top: 200px;
 }
 
 img {
@@ -78,6 +79,24 @@ textarea:focus, input:focus{
 	z-index: 1;
 	position: relative;
 }
+
+/* Search Buttons */
+div.input {
+	margin: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding: 10px;
+}
+
+input.button {
+	display: inline-block;
+	margin: 10px;
+}
+
+
+
 
 
 /* Footer */
