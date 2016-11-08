@@ -9,6 +9,30 @@ body{
 	
 }
 
+/* Header */
+div.header {
+	float: right;
+	height: 32px;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.header span{
+	padding: 10px;
+	
+}
+
+#options{
+	height: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
+#notif{
+	height: 100%;
+	margin: 0 auto;
+	vertical-align: middle;
+}
+
 
 /* Google Logo */
 div.logo {
